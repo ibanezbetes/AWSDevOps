@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "No hay pasos de compilación para HTML estático"
+install:
+  commands:
+    - echo "Instalación no requerida"
+artifacts:
+  files:
+    - '**/*'
